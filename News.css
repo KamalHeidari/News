@@ -1,0 +1,192 @@
+@font-face {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/Vazir.eot");
+  src: url("fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Vazir.woff2") format("woff2"),
+    url("fonts/Vazir.woff") format("woff"),
+    url("fonts/Vazir.ttf") format("truetype");
+}
+@font-face {
+  font-family: Vazir-Bold;
+  font-style: normal;
+  font-weight: bold;
+  src: url("fonts/Vazir-Bold.eot");
+  src: url("fonts/Vazir-Bold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Vazir-Bold.woff2") format("woff2"),
+    url("fonts/Vazir-Bold.woff") format("woff"),
+    url("fonts/Vazir-Bold.ttf") format("truetype");
+}
+
+body {
+  font-family: Vazir;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#divTop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(85, 156, 201);
+  padding: 0.4vw;
+  display: flex;
+  direction: rtl;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0 0 7px white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: initial;
+  height: 11vh;
+  width: 100%;
+}
+#hTop {
+  color: white;
+  font-size: x-large;
+  float: right;
+  text-shadow: 0 0 5px black;
+  margin-right: 0.8%;
+  transition: font-size 2s;
+}
+#hTop:hover {
+  font-size: xx-large;
+}
+#imgTop {
+  border-radius: 50%;
+  margin-right: 1.5%;
+  width: 60px;
+  background-color: rgb(255, 255, 255);
+}
+#OandN {
+  height: 80vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 18vh;
+  margin-bottom: 10vh;
+}
+
+#openNew {
+  height: 70vh;
+  background-color: rgba(223, 242, 245, 0.671);
+  margin-left: 3.3%;
+  width: 50%;
+  display: inline-block;
+  box-shadow: 0 0 5px rgb(255, 255, 255);
+  border-radius: 0.8%;
+  overflow-y: scroll;
+}
+#News {
+  background-color: rgb(157, 191, 196);
+  margin-left: 3.5%;
+  width: 50%;
+  display: inline-block;
+  box-shadow: 0 0 7px rgb(255, 255, 255);
+  border-radius: 0.8%;
+  overflow-y: scroll;
+  height: 80vh;
+  overflow-x: hidden;
+}
+
+#main {
+  display: block;
+  margin: 0.7%;
+  box-sizing: border-box;
+  width: 98.6%;
+}
+#main1 {
+  border-radius: 1%;
+  display: flex;
+  direction: rtl;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #dfdfdf85;
+}
+
+#imgNEW {
+  width: 25%;
+  background-color: #82dfdf;
+}
+#imgNEW img {
+  width: 100%;
+  display: inline;
+  float: right;
+  border-radius: 2%;
+  height: 15vh;
+}
+
+#ph1 {
+  width: 73%;
+  padding: 0.4%;
+  box-sizing: border-box;
+}
+#ph1 h1 {
+  color: rgb(83, 11, 89);
+  font-size: medium;
+  float: right;
+  margin: 1%;
+}
+#ph1 p {
+  color: rgb(0, 0, 0);
+  font-size: small;
+  float: right;
+  border-radius: 2%;
+  margin: 1%;
+}
+#ph1 p span {
+  color: red;
+}
+
+#ph1 span:hover {
+  color: rgb(0, 0, 0);
+}
+
+#numberNew {
+  position: fixed;
+  top: 0;
+  margin-top: 3vh;
+  font-size: x-large;
+  font-family: Vazir-Bold;
+  color: red;
+  left: 1%;
+  text-shadow: 0 0 5px white;
+  background-color: #02b1b185;
+  padding: 0.3%;
+  border-radius: 2%;
+}
+#numberNew span {
+  color: white;
+  text-shadow: 0 0 5px black;
+  font-size: large;
+}
+
+#mainO {
+  color: rgb(0, 0, 0);
+  font-size: medium;
+  direction: rtl;
+  background-color: #dfdfdf85;
+  padding: 1%;
+  border-radius: 1%;
+  margin: 1%;
+}
+
+#imgONEW {
+  width: 85%;
+  height: 30vh;
+  margin-right: 7.5%;
+  border-radius: 2%;
+}
+
+#phO1 h1 {
+  color: rgb(255, 6, 6);
+  font-size: large;
+  margin: 2%;
+}
+
+#phO1 p {
+  margin: 2% 6% 2% 6%;
+}
